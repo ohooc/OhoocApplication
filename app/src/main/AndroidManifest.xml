@@ -26,6 +26,15 @@
         <activity android:name=".login.suggest.LoadFragmentActivity"/>
         <activity android:name=".login.suggest.LoginAct"/>
 
+        <activity android:name=".login2.ActionBarActivity"/>
+        <activity android:name=".login2.CustomLayoutActivity"/>
+        <activity android:name=".login2.CustomLayoutWithToolBarActivity"/>
+        <activity android:name=".login2.RecyclerViewActivity"/>
+        <activity android:name=".login2.ScrollViewActivity"/>
+        <activity android:name=".login2.ToolBarActivity"/>
+        <activity android:name=".login2.TranslucentLayoutActivity"/>
+
+
     </application>
 
 </manifest>
