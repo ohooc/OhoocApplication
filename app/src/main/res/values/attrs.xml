@@ -18,12 +18,34 @@
         <attr name="textSize" format="dimension" />
         <attr name="textTopMargin" format="dimension" />
         <attr name="customFont" format="string" />
-        <attr name="canFullSwipeFromLeft" format="boolean"/>
-        <attr name="canFullSwipeFromRight" format="boolean"/>
+        <attr name="canFullSwipeFromLeft" format="boolean" />
+        <attr name="canFullSwipeFromRight" format="boolean" />
         <attr name="autoHideSwipe" format="boolean" />
         <attr name="onlyOneSwipe" format="boolean" />
 
     </declare-styleable>
+    <declare-styleable name="SlidingLayout">
+        <attr name="background_view" format="reference" />
+        <attr name="sliding_mode" format="enum">
+            <enum name="both" value="0" />
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+        <attr name="sliding_pointer_mode" format="enum">
+            <enum name="one" value="0" />
+            <enum name="more" value="1" />
+        </attr>
+        <attr name="top_max" format="dimension" />
+    </declare-styleable>
 
+
+    <declare-styleable name="drawableText">
+        <attr name="leftDrawable" format="reference|integer" />
+        <attr name="rightDrawable" format="reference|integer" />
+        <attr name="topDrawable" format="reference|integer" />
+        <attr name="bottomDrawable" format="reference|integer" />
+        <attr name="drawableWidth" format="dimension" />
+        <attr name="drawableHeight" format="dimension" />
+    </declare-styleable>
 
 </resources>
